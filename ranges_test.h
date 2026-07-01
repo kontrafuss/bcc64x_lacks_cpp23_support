@@ -3,4 +3,7 @@
 #ifndef ranges_testH
 #define ranges_testH
 //---------------------------------------------------------------------------
+
+extern void ranges_test();
+
 #endif

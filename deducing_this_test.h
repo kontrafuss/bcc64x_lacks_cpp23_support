@@ -7,7 +7,7 @@
 #include <ostream>
 //---------------------------------------------------------------------------
 
-void deducing_this_test();
+extern void deducing_this_test();
 
 class MySet
 {
