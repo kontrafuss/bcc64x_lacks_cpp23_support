@@ -135,8 +135,20 @@
             <BuildOrder>0</BuildOrder>
             <PCH>true</PCH>
         </PCHCompile>
+        <CppCompile Include="deducing_this_test.cpp">
+            <DependentOn>deducing_this_test.h</DependentOn>
+            <BuildOrder>4</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="generator_test.cpp">
+            <DependentOn>generator_test.h</DependentOn>
+            <BuildOrder>2</BuildOrder>
+        </CppCompile>
         <CppCompile Include="main.cpp">
             <BuildOrder>1</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="ranges_test.cpp">
+            <DependentOn>ranges_test.h</DependentOn>
+            <BuildOrder>3</BuildOrder>
         </CppCompile>
         <BuildConfiguration Include="Base">
             <Key>Base</Key>
